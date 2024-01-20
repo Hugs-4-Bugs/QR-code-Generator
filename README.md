@@ -4,7 +4,7 @@
 
 # Features
 
-**Unique QR Code Generation:** Generates diverse QR codes for different input data.
+**QR-code-Generator:** Generates diverse QR codes for different input data.
 **Scalability:** Built to handle a large number of unique data inputs without repetition.
 **Customizable:** Easily adjustable for various sizes and error correction levels of QR codes.
 
