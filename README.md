@@ -1,5 +1,5 @@
-# UniqueQRCodeGenerator
-"UniqueQRCodeGenerator" is a Java-based project that enables the generation of diverse and distinct QR codes for different inputs.
+# QR-code-Generator
+"QR-code-Generator" is a Java-based project that enables the generation of diverse and distinct QR codes for different inputs.
 
 
 # Features
@@ -10,7 +10,7 @@
 
 # Usage
 ### Clone the Repository:
-[git clone https://github.com/Hugs-4-Bugs/UniqueQRCodeGenerator.git](https://github.com/Hugs-4-Bugs/UniqueQRCodeGenerator.git)
+ (https://github.com/Hugs-4-Bugs/QR-code-Generator)
 
 
 # Compile and Run:
@@ -19,16 +19,9 @@ Ensure all necessary dependencies are installed as specified in the pom.xml file
 
 
 # SQL Query
-### Use below query for creating the database👇
+### SQL Query is not required.
 
-create database if not exists QRCodeAPI;
 
-use QRCodeAPI;
-
-CREATE TABLE QRCodeEntity (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    data VARCHAR(255)
-);
 
 ALTER TABLE qrcode_entity MODIFY qr_code_data BLOB;
 
@@ -36,7 +29,7 @@ ALTER TABLE qrcode_entity MODIFY qr_code_data BLOB;
 # Postman
 Postman is used to test the user input 'data'.
 
-**URL:-** http://localhost:8100/generateQRCode
+**URL:-** http://localhost:8100/qr/qrcode/{Your Input}
 
 
 # Contributing
