@@ -23,9 +23,6 @@ Ensure all necessary dependencies are installed as specified in the pom.xml file
 
 
 
-ALTER TABLE qrcode_entity MODIFY qr_code_data BLOB;
-
-
 # Postman
 Postman is used to test the user input 'data'.
 
